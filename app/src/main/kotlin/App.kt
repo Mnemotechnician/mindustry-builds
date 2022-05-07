@@ -44,9 +44,10 @@ suspend fun main() {
 	val success = previousInfo == null || previousInfo.sha != info.sha
 	if (success) {
 		File(outputFile).writeText(json.encodeToString(info))
+		print("::set-output name=SUCCESS::$success")
+	} else {
+		System.exit(1) // this will prevent the following steps from being run... this is stupid, but i couldn't get the if statements to work.
 	}
-
-	print("::set-output name=SUCCESS::$success")
 }
 
 fun getRepoUrl(user: String, repo: String) = "$baseUrl/repos/$user/$repo"
