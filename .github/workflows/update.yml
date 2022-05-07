@@ -15,8 +15,12 @@ jobs:
         id: script
         run: bash gradlew
 
+      - name: Setup Android SDK
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
+        uses: android-actions/setup-android@v2 
+
       - name: clone, build mindustry
-        if: ${{ steps.script.outputs.SUCCESS }}
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         run: |
           mkdir .tmp
           mkdir .output
@@ -33,7 +37,7 @@ jobs:
           rm -rf .tmp
 
       - name: Generate a key and sign the android build
-        if: ${{ steps.script.outputs.SUCCESS }}
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         run: |
           cd .output
 
@@ -45,7 +49,7 @@ jobs:
           mv Mindustry-android-unsigned.apk Mindustry-android.apk
 
       - name: Upload desktop build
-        if: ${{ steps.script.outputs.SUCCESS }}
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         uses: actions/upload-release-asset@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -53,7 +57,7 @@ jobs:
           tag: ${{ github.ref }}
         
       - name: Upload server build
-        if: ${{ steps.script.outputs.SUCCESS }}
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         uses: actions/upload-release-asset@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -61,7 +65,7 @@ jobs:
           tag: ${{ github.ref }}
         
       - name: Upload android build
-        if: ${{ steps.script.outputs.SUCCESS }}
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         uses: actions/upload-release-asset@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -69,13 +73,13 @@ jobs:
           tag: ${{ github.ref }}
         
       - name: Cleanup
-        if: ${{ steps.script.outputs.SUCCESS }}
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         run: |
           rm -rf .output
           rm -f app/RESULT
 
       - name: Upload last state
-        if: ${{ steps.script.outputs.SUCCESS }}
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         run: |
           git config --global user.name 'Github Actions'
           git config --global user.email 'actions@github.com'

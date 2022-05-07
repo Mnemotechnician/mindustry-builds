@@ -46,7 +46,7 @@ suspend fun main() {
 		File(outputFile).writeText(json.encodeToString(info))
 	}
 
-	print("::set-output name=SUCCESS::${if (success) 0 else 1}")
+	print("::set-output name=SUCCESS::$success")
 }
 
 fun getRepoUrl(user: String, repo: String) = "$baseUrl/repos/$user/$repo"
