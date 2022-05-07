@@ -2,7 +2,7 @@ name: Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */1 * * *"
 
 jobs:
   build:
@@ -68,6 +68,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-desktop.jar
           tag: ${{ github.run_number }}
+          body: ${{ steps.script.outputs.MESSAGE }}
         
       - name: Upload server build
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
@@ -76,6 +77,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-server.jar
           tag: ${{ github.run_number }}
+          body: ${{ steps.script.outputs.MESSAGE }}
         
       - name: Upload android build
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
@@ -84,6 +86,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-android.apk
           tag: ${{ github.run_number }}
+          body: ${{ steps.script.outputs.MESSAGE }}
         
       - name: Cleanup
         if: ${{ steps.script.outputs.SUCCESS }} == "true"

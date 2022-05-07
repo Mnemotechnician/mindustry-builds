@@ -44,8 +44,13 @@ suspend fun main() {
 	val success = previousInfo == null || previousInfo.sha != info.sha
 	if (success) {
 		File(outputFile).writeText(json.encodeToString(info))
-		print("::set-output name=SUCCESS::$success")
+
+		println("::set-output name=SUCCESS::$success")
+		println("::set-output name=MESSAGE::${info.commit.message}")
+		println("PROCEEDING.")
 	} else {
+		println("NO NEW COMMITS, SKIPPING THE BUILD.")
+		println("-----------------------------------")
 		System.exit(1) // this will prevent the following steps from being run... this is stupid, but i couldn't get the if statements to work.
 	}
 }
