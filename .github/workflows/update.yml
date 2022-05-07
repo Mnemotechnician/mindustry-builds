@@ -37,7 +37,7 @@ jobs:
 
           mv desktop/build/libs/*.jar ../../.output/Mindustry-desktop.jar
           mv server/build/libs/*.jar ../../.output/Mindustry-server.jar
-          mv android/build/outputs/apk/*.apk ../../.output/Mindustry-android-unsigned.apk
+          mv `find -wholename ./android/build/outputs/apk/*.apk` ../../.output/Mindustry-android-unsigned.apk
 
           cd ../..
           rm -rf .tmp
