@@ -13,7 +13,8 @@ jobs:
 
       - name: run script
         id: script
-        run: bash gradlew
+        run: |
+          bash gradlew run
 
       - name: Setup Android SDK
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
