@@ -15,7 +15,7 @@ jobs:
         run: bash gradlew
 
       - name: clone, build mindustry
-        if: $( < app/RESULT ) == "1"
+        if: ${{ < app/RESULT }} == "1"
         run: |
           mkdir .tmp
           mkdir .output
