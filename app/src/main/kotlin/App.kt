@@ -41,12 +41,12 @@ suspend fun main() {
 	val url = getCommitUrl(userName, repoName, branchName)
 	val info: LastCommitInfo = client.get(url).body()
 
-	if (previousInfo == null || previousInfo.sha != info.sha) {
+	val success = previousInfo == null || previousInfo.sha != info.sha
+	if (success) {
 		File(outputFile).writeText(json.encodeToString(info))
-		File(resultFile).writeText("1")
-	} else {
-		File(resultFile).writeText("0")
 	}
+
+	print("::set-output name=SUCCESS::${if (success) 0 else 1}")
 }
 
 fun getRepoUrl(user: String, repo: String) = "$baseUrl/repos/$user/$repo"
