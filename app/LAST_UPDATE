@@ -1,0 +1,22 @@
+{
+    "sha": "dfac73d81cfc6b703fa32e8829daf274389bf9bf",
+    "node_id": "C_kwDOBVqVQ9oAKGRmYWM3M2Q4MWNmYzZiNzAzZmEzMmU4ODI5ZGFmMjc0Mzg5YmY5YmY",
+    "commit": {
+        "author": {
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-07T15:56:42Z"
+        },
+        "committer": {
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-07T15:56:42Z"
+        },
+        "message": "Do not make cores derelict",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/dfac73d81cfc6b703fa32e8829daf274389bf9bf",
+        "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/dfac73d81cfc6b703fa32e8829daf274389bf9bf",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/dfac73d81cfc6b703fa32e8829daf274389bf9bf",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/dfac73d81cfc6b703fa32e8829daf274389bf9bf/comments"
+}
