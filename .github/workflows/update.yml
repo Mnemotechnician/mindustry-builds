@@ -1,0 +1,77 @@
+name: Update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */5 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: run script
+        run: bash gradlew
+
+      - name: clone, build mindustry
+        if: [[ $( < app/RESULT ) == "1" ]]
+        run: |
+          mkdir .tmp
+          mkdir .output
+          cd .tmp
+          git clone --depth 1 --branch erekir https://github.com/anuken/mindustry/
+          cd mindustry
+          bash gradlew tools::pack desktop::dist server::dist android::assembleDebug
+
+          mv desktop/build/libs/*.jar ../../.output/Mindustry-desktop.jar
+          mv server/build/libs/*.jar ../../.output/Mindustry-server.jar
+          mv android/build/outputs/apk/*.apk ../../.output/Mindustry-android-unsigned.apk
+
+          cd ../..
+          rm -rf .tmp
+
+      - name: Generate a key and sign the android build
+        run: |
+          cd .output
+
+          password="DEBUG_PASSWORD"
+          alias="DEBUG_ALIAS"
+
+          echo -e "$password\n$password\n\n\n\n\n\n\nyes" | keytool -genkey -v -keystore debug.keystore -alias $alias -keyalg RSA -keysize 2048 -validity 10000
+          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore debug.keystore Mindustry-android-unsigned.apk $alias
+          mv Mindustry-android-unsigned.apk Mindustry-android.apk
+
+      - name: Upload desktop build
+        uses: actions/upload-release-asset@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          file: .output/Mindustry-desktop.jar
+          tag: ${{ github.ref }}
+        
+      - name: Upload server build
+        uses: actions/upload-release-asset@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          file: .output/Mindustry-server.jar
+          tag: ${{ github.ref }}
+        
+      - name: Upload android build
+        uses: actions/upload-release-asset@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          file: .output/Mindustry-android.apk
+          tag: ${{ github.ref }}
+        
+      - name: Cleanup
+        run: |
+          rm -rf .output
+          rm -f app/RESULT
+
+      - name: Upload last state
+        run: |
+          git config --global user.name 'Github Actions'
+          git config --global user.email 'actions@github.com'
+          git add app/LAST_UPDATE
+          git commit -am "Auto-update"
+          git push
