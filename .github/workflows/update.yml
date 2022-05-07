@@ -51,7 +51,7 @@ jobs:
           alias="DEBUG_ALIAS"
 
           echo -e "$password\n$password\n\n\n\n\n\n\nyes" | keytool -genkey -v -keystore debug.keystore -alias $alias -keyalg RSA -keysize 2048 -validity 10000
-          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore debug.keystore -keypass $password Mindustry-android-unsigned.apk $alias
+          echo $password | jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore debug.keystore -keypass $password Mindustry-android-unsigned.apk $alias
           mv Mindustry-android-unsigned.apk Mindustry-android.apk
 
       - name: Upload desktop build
