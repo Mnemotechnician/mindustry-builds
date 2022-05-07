@@ -60,7 +60,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-desktop.jar
-          tag: ${{ github.ref }}
+          tag: ${{ github.run_number }}
         
       - name: Upload server build
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
@@ -68,7 +68,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-server.jar
-          tag: ${{ github.ref }}
+          tag: ${{ github.run_number }}
         
       - name: Upload android build
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
@@ -76,7 +76,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-android.apk
-          tag: ${{ github.ref }}
+          tag: ${{ github.run_number }}
         
       - name: Cleanup
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
