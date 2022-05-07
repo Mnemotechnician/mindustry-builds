@@ -19,6 +19,12 @@ jobs:
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
         uses: android-actions/setup-android@v2 
 
+      - uses: actions/setup-java@v3
+        if: ${{ steps.script.outputs.SUCCESS }} == "true"
+        with:
+          distribution: 'temurin'
+          java-version: '16'
+
       - name: clone, build mindustry
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
         run: |
