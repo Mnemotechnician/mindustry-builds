@@ -1,22 +1,22 @@
 {
-    "sha": "dfac73d81cfc6b703fa32e8829daf274389bf9bf",
-    "node_id": "C_kwDOBVqVQ9oAKGRmYWM3M2Q4MWNmYzZiNzAzZmEzMmU4ODI5ZGFmMjc0Mzg5YmY5YmY",
+    "sha": "a3ef2a618595c7b6a5105d48cb3c5d451481e824",
+    "node_id": "C_kwDOBVqVQ9oAKGEzZWYyYTYxODU5NWM3YjZhNTEwNWQ0OGNiM2M1ZDQ1MTQ4MWU4MjQ",
     "commit": {
         "author": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-07T15:56:42Z"
+            "name": "Github Actions",
+            "email": "runner@fv-az212-354.zlodpucb4l4udavnfxg5s20dva.cx.internal.cloudapp.net",
+            "date": "2022-05-07T17:40:26Z"
         },
         "committer": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-07T15:56:42Z"
+            "name": "Github Actions",
+            "email": "runner@fv-az212-354.zlodpucb4l4udavnfxg5s20dva.cx.internal.cloudapp.net",
+            "date": "2022-05-07T17:40:26Z"
         },
-        "message": "Do not make cores derelict",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/dfac73d81cfc6b703fa32e8829daf274389bf9bf",
+        "message": "Automatic bundle update",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/a3ef2a618595c7b6a5105d48cb3c5d451481e824",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/dfac73d81cfc6b703fa32e8829daf274389bf9bf",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/dfac73d81cfc6b703fa32e8829daf274389bf9bf",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/dfac73d81cfc6b703fa32e8829daf274389bf9bf/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/a3ef2a618595c7b6a5105d48cb3c5d451481e824",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/a3ef2a618595c7b6a5105d48cb3c5d451481e824",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/a3ef2a618595c7b6a5105d48cb3c5d451481e824/comments"
 }
