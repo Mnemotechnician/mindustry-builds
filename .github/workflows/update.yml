@@ -34,7 +34,9 @@ jobs:
           cd .tmp
           git clone --depth 1 --branch erekir https://github.com/anuken/mindustry/
           cd mindustry
-          bash gradlew tools::pack desktop::dist server::dist android::assembleDebug
+          bash gradlew desktop::dist
+          bash gradlew server::dist
+          bash gradlew android::assembleDebug
 
           mv desktop/build/libs/*.jar ../../.output/Mindustry-desktop.jar
           mv server/build/libs/*.jar ../../.output/Mindustry-server.jar
