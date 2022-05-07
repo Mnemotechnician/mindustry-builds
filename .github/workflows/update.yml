@@ -56,25 +56,25 @@ jobs:
 
       - name: Upload desktop build
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
-        uses: actions/upload-release-asset@v1
+        uses: svenstaro/upload-release-action@2.2.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-desktop.jar
           tag: ${{ github.ref }}
         
       - name: Upload server build
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
-        uses: actions/upload-release-asset@v1
+        uses: svenstaro/upload-release-action@2.2.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-server.jar
           tag: ${{ github.ref }}
         
       - name: Upload android build
         if: ${{ steps.script.outputs.SUCCESS }} == "true"
-        uses: actions/upload-release-asset@v1
+        uses: svenstaro/upload-release-action@2.2.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: .output/Mindustry-android.apk
           tag: ${{ github.ref }}
         
