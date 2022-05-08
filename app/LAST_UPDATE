@@ -1,22 +1,22 @@
 {
-    "sha": "aaccb36d934f21a563cbb5d06787ceb4161319ee",
-    "node_id": "C_kwDOBVqVQ9oAKGFhY2NiMzZkOTM0ZjIxYTU2M2NiYjVkMDY3ODdjZWI0MTYxMzE5ZWU",
+    "sha": "f5ef01f01ee42f6b937ad16b4bb7ea0d45f0afa6",
+    "node_id": "C_kwDOBVqVQ9oAKGY1ZWYwMWYwMWVlNDJmNmI5MzdhZDE2YjRiYjdlYTBkNDVmMGFmYTY",
     "commit": {
         "author": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-08T05:00:16Z"
+            "name": "Github Actions",
+            "email": "runner@fv-az292-683.tqgtyn10aqxuxoi0mkfbldi5vh.jx.internal.cloudapp.net",
+            "date": "2022-05-08T13:30:05Z"
         },
         "committer": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-08T05:00:16Z"
+            "name": "Github Actions",
+            "email": "runner@fv-az292-683.tqgtyn10aqxuxoi0mkfbldi5vh.jx.internal.cloudapp.net",
+            "date": "2022-05-08T13:30:05Z"
         },
-        "message": "BuildTurret fixes",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/aaccb36d934f21a563cbb5d06787ceb4161319ee",
+        "message": "Automatic bundle update",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/f5ef01f01ee42f6b937ad16b4bb7ea0d45f0afa6",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/aaccb36d934f21a563cbb5d06787ceb4161319ee",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/aaccb36d934f21a563cbb5d06787ceb4161319ee",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/aaccb36d934f21a563cbb5d06787ceb4161319ee/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/f5ef01f01ee42f6b937ad16b4bb7ea0d45f0afa6",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/f5ef01f01ee42f6b937ad16b4bb7ea0d45f0afa6",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/f5ef01f01ee42f6b937ad16b4bb7ea0d45f0afa6/comments"
 }
