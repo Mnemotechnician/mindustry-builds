@@ -1,22 +1,22 @@
 {
-    "sha": "b3d064b1f742e9b2959fa866e5489b4664de8d56",
-    "node_id": "C_kwDOBVqVQ9oAKGIzZDA2NGIxZjc0MmU5YjI5NTlmYTg2NmU1NDg5YjQ2NjRkZThkNTY",
+    "sha": "7b47a5cc30c65d6a40de182ce8f271fec142d9ef",
+    "node_id": "C_kwDOBVqVQ9oAKDdiNDdhNWNjMzBjNjVkNmE0MGRlMTgyY2U4ZjI3MWZlYzE0MmQ5ZWY",
     "commit": {
         "author": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-07T18:09:49Z"
+            "date": "2022-05-08T02:08:49Z"
         },
         "committer": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-07T18:09:49Z"
+            "date": "2022-05-08T02:08:49Z"
         },
-        "message": "Merge branch 'erekir' of https://github.com/Anuken/Mindustry into erekir",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/b3d064b1f742e9b2959fa866e5489b4664de8d56",
+        "message": "Fixed auto-unlock for campaign sectors",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/7b47a5cc30c65d6a40de182ce8f271fec142d9ef",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/b3d064b1f742e9b2959fa866e5489b4664de8d56",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/b3d064b1f742e9b2959fa866e5489b4664de8d56",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/b3d064b1f742e9b2959fa866e5489b4664de8d56/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/7b47a5cc30c65d6a40de182ce8f271fec142d9ef",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/7b47a5cc30c65d6a40de182ce8f271fec142d9ef",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/7b47a5cc30c65d6a40de182ce8f271fec142d9ef/comments"
 }
