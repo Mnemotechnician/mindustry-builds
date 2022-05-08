@@ -1,22 +1,22 @@
 {
-    "sha": "f055e35729cbc60f565d5c19407aaf03553ce9d6",
-    "node_id": "C_kwDOBVqVQ9oAKGYwNTVlMzU3MjljYmM2MGY1NjVkNWMxOTQwN2FhZjAzNTUzY2U5ZDY",
+    "sha": "aaccb36d934f21a563cbb5d06787ceb4161319ee",
+    "node_id": "C_kwDOBVqVQ9oAKGFhY2NiMzZkOTM0ZjIxYTU2M2NiYjVkMDY3ODdjZWI0MTYxMzE5ZWU",
     "commit": {
         "author": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-08T04:03:06Z"
+            "date": "2022-05-08T05:00:16Z"
         },
         "committer": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-08T04:03:06Z"
+            "date": "2022-05-08T05:00:16Z"
         },
-        "message": "Crash fix",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/f055e35729cbc60f565d5c19407aaf03553ce9d6",
+        "message": "BuildTurret fixes",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/aaccb36d934f21a563cbb5d06787ceb4161319ee",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/f055e35729cbc60f565d5c19407aaf03553ce9d6",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/f055e35729cbc60f565d5c19407aaf03553ce9d6",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/f055e35729cbc60f565d5c19407aaf03553ce9d6/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/aaccb36d934f21a563cbb5d06787ceb4161319ee",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/aaccb36d934f21a563cbb5d06787ceb4161319ee",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/aaccb36d934f21a563cbb5d06787ceb4161319ee/comments"
 }
