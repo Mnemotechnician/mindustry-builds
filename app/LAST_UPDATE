@@ -1,22 +1,22 @@
 {
-    "sha": "c8f81bd9b04e24dad3b2f81e5430632339b1c9ca",
-    "node_id": "C_kwDOBVqVQ9oAKGM4ZjgxYmQ5YjA0ZTI0ZGFkM2IyZjgxZTU0MzA2MzIzMzliMWM5Y2E",
+    "sha": "f055e35729cbc60f565d5c19407aaf03553ce9d6",
+    "node_id": "C_kwDOBVqVQ9oAKGYwNTVlMzU3MjljYmM2MGY1NjVkNWMxOTQwN2FhZjAzNTUzY2U5ZDY",
     "commit": {
         "author": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-08T02:57:12Z"
+            "date": "2022-05-08T04:03:06Z"
         },
         "committer": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-08T02:57:12Z"
+            "date": "2022-05-08T04:03:06Z"
         },
-        "message": "shadowElevationScl",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/c8f81bd9b04e24dad3b2f81e5430632339b1c9ca",
+        "message": "Crash fix",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/f055e35729cbc60f565d5c19407aaf03553ce9d6",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/c8f81bd9b04e24dad3b2f81e5430632339b1c9ca",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/c8f81bd9b04e24dad3b2f81e5430632339b1c9ca",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/c8f81bd9b04e24dad3b2f81e5430632339b1c9ca/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/f055e35729cbc60f565d5c19407aaf03553ce9d6",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/f055e35729cbc60f565d5c19407aaf03553ce9d6",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/f055e35729cbc60f565d5c19407aaf03553ce9d6/comments"
 }
