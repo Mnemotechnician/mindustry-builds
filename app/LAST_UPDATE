@@ -1,22 +1,22 @@
 {
-    "sha": "7b47a5cc30c65d6a40de182ce8f271fec142d9ef",
-    "node_id": "C_kwDOBVqVQ9oAKDdiNDdhNWNjMzBjNjVkNmE0MGRlMTgyY2U4ZjI3MWZlYzE0MmQ5ZWY",
+    "sha": "c8f81bd9b04e24dad3b2f81e5430632339b1c9ca",
+    "node_id": "C_kwDOBVqVQ9oAKGM4ZjgxYmQ5YjA0ZTI0ZGFkM2IyZjgxZTU0MzA2MzIzMzliMWM5Y2E",
     "commit": {
         "author": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-08T02:08:49Z"
+            "date": "2022-05-08T02:57:12Z"
         },
         "committer": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-08T02:08:49Z"
+            "date": "2022-05-08T02:57:12Z"
         },
-        "message": "Fixed auto-unlock for campaign sectors",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/7b47a5cc30c65d6a40de182ce8f271fec142d9ef",
+        "message": "shadowElevationScl",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/c8f81bd9b04e24dad3b2f81e5430632339b1c9ca",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/7b47a5cc30c65d6a40de182ce8f271fec142d9ef",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/7b47a5cc30c65d6a40de182ce8f271fec142d9ef",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/7b47a5cc30c65d6a40de182ce8f271fec142d9ef/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/c8f81bd9b04e24dad3b2f81e5430632339b1c9ca",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/c8f81bd9b04e24dad3b2f81e5430632339b1c9ca",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/c8f81bd9b04e24dad3b2f81e5430632339b1c9ca/comments"
 }
