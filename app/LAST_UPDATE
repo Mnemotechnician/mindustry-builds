@@ -1,22 +1,22 @@
 {
-    "sha": "e69aa6bf49b8a239af10ccc68986da40bb23b135",
-    "node_id": "C_kwDOBVqVQ9oAKGU2OWFhNmJmNDliOGEyMzlhZjEwY2NjNjg5ODZkYTQwYmIyM2IxMzU",
+    "sha": "12c33cc032816e5b39e683c961e12e8b0b7fa754",
+    "node_id": "C_kwDOBVqVQ9oAKDEyYzMzY2MwMzI4MTZlNWIzOWU2ODNjOTYxZTEyZThiMGI3ZmE3NTQ",
     "commit": {
         "author": {
-            "name": "Github Actions",
-            "email": "runner@fv-az292-683.tqgtyn10aqxuxoi0mkfbldi5vh.jx.internal.cloudapp.net",
-            "date": "2022-05-08T16:46:41Z"
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-08T16:54:38Z"
         },
         "committer": {
-            "name": "Github Actions",
-            "email": "runner@fv-az292-683.tqgtyn10aqxuxoi0mkfbldi5vh.jx.internal.cloudapp.net",
-            "date": "2022-05-08T16:46:41Z"
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-08T16:54:38Z"
         },
-        "message": "Automatic bundle update",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/e69aa6bf49b8a239af10ccc68986da40bb23b135",
+        "message": "Merge branch 'erekir' of https://github.com/Anuken/Mindustry into erekir",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/12c33cc032816e5b39e683c961e12e8b0b7fa754",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/e69aa6bf49b8a239af10ccc68986da40bb23b135",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/e69aa6bf49b8a239af10ccc68986da40bb23b135",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/e69aa6bf49b8a239af10ccc68986da40bb23b135/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/12c33cc032816e5b39e683c961e12e8b0b7fa754",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/12c33cc032816e5b39e683c961e12e8b0b7fa754",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/12c33cc032816e5b39e683c961e12e8b0b7fa754/comments"
 }
