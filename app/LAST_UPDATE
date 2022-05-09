@@ -1,22 +1,22 @@
 {
-    "sha": "a82a6f4324bf3bf7c516167b2003aa76248c669c",
-    "node_id": "C_kwDOBVqVQ9oAKGE4MmE2ZjQzMjRiZjNiZjdjNTE2MTY3YjIwMDNhYTc2MjQ4YzY2OWM",
+    "sha": "8269d79e560268a30b25bdcb171fe83af1f0b3b2",
+    "node_id": "C_kwDOBVqVQ9oAKDgyNjlkNzllNTYwMjY4YTMwYjI1YmRjYjE3MWZlODNhZjFmMGIzYjI",
     "commit": {
         "author": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-09T19:14:09Z"
+            "name": "dead inside",
+            "email": "54301439+MEEPofFaith@users.noreply.github.com",
+            "date": "2022-05-09T21:06:55Z"
         },
         "committer": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-09T19:14:09Z"
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2022-05-09T21:06:55Z"
         },
-        "message": "Manual trimming of sprites",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/a82a6f4324bf3bf7c516167b2003aa76248c669c",
+        "message": "Liquid Output Display (#6788)\n\n* Liquid Output Display\r\n\r\n* hshfhqwehpvoipwjovpwiqffjvpwqenoij0n89f4v123f2v40q9j8hbnwqvceinopjj90cmqwvinv21904uinfhu0bnv9j90h84g bvb8024q3bh80b3498vcfj932ndjqdjponjewopnviqvnifjwp9ghpnewuubgqjiojpdfoekwdckmpqwpkmidpkewpjndqvjwnfnj8132nt345879ytgh342890yu4598yhubn4t9hrj[tevpkofkwemfvewrphojfekpcfoerkfwmvfh23bng0398g9834ifvrfnwurbgiwnwgherhnwenhgpvrnnivjpjnipfqwjniwqfejnipofvniwejpfqjwociomjefjjmvcmj21m4f98v00ngbhegwefgpjroiewjfqfwpiojnmem\r\n\r\n* Pull to separate function\r\n\r\nThe javadoc description could be different\r\n\r\n* In case mods have liquid icons larger than 32x32",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/8269d79e560268a30b25bdcb171fe83af1f0b3b2",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/a82a6f4324bf3bf7c516167b2003aa76248c669c",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/a82a6f4324bf3bf7c516167b2003aa76248c669c",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/a82a6f4324bf3bf7c516167b2003aa76248c669c/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/8269d79e560268a30b25bdcb171fe83af1f0b3b2",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/8269d79e560268a30b25bdcb171fe83af1f0b3b2",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/8269d79e560268a30b25bdcb171fe83af1f0b3b2/comments"
 }
