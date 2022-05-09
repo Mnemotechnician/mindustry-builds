@@ -1,22 +1,22 @@
 {
-    "sha": "03a3e43b01f11f9987994e64153092fb165d0350",
-    "node_id": "C_kwDOBVqVQ9oAKDAzYTNlNDNiMDFmMTFmOTk4Nzk5NGU2NDE1MzA5MmZiMTY1ZDAzNTA",
+    "sha": "a82a6f4324bf3bf7c516167b2003aa76248c669c",
+    "node_id": "C_kwDOBVqVQ9oAKGE4MmE2ZjQzMjRiZjNiZjdjNTE2MTY3YjIwMDNhYTc2MjQ4YzY2OWM",
     "commit": {
         "author": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-09T19:01:53Z"
+            "date": "2022-05-09T19:14:09Z"
         },
         "committer": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-09T19:01:53Z"
+            "date": "2022-05-09T19:14:09Z"
         },
-        "message": "Merge remote-tracking branch 'origin/erekir' into erekir",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/03a3e43b01f11f9987994e64153092fb165d0350",
+        "message": "Manual trimming of sprites",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/a82a6f4324bf3bf7c516167b2003aa76248c669c",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/03a3e43b01f11f9987994e64153092fb165d0350",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/03a3e43b01f11f9987994e64153092fb165d0350",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/03a3e43b01f11f9987994e64153092fb165d0350/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/a82a6f4324bf3bf7c516167b2003aa76248c669c",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/a82a6f4324bf3bf7c516167b2003aa76248c669c",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/a82a6f4324bf3bf7c516167b2003aa76248c669c/comments"
 }
