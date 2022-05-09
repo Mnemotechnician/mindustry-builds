@@ -17,12 +17,10 @@ jobs:
           bash gradlew run
 
       - name: Setup Android SDK
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         uses: android-actions/setup-android@v2 
 
       - name: Setup JDK 16
         uses: actions/setup-java@v3
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         with:
           distribution: 'temurin'
           java-version: '16'
@@ -31,16 +29,17 @@ jobs:
         run: sudo apt install apksigner -y
 
       - name: clone, build mindustry
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
+        env:
+          version: ${{ github.run_number }}
         run: |
           mkdir .tmp
           mkdir .output
           cd .tmp
           git clone --depth 1 --branch erekir https://github.com/anuken/mindustry/
           cd mindustry
-          bash gradlew desktop::dist
-          bash gradlew server::dist
-          bash gradlew android::assembleDebug
+          bash gradlew desktop::dist -Pbuildversion=${version} -PversionType=bleeding-edge
+          bash gradlew server::dist -Pbuildversion=${version} -PversionType=bleeding-edge
+          bash gradlew android::assembleDebug -Pbuildversion=${version} -PversionType=bleeding-edge
 
           mv desktop/build/libs/*.jar ../../.output/Mindustry-desktop.jar
           mv server/build/libs/*.jar ../../.output/Mindustry-server.jar
@@ -50,7 +49,6 @@ jobs:
           rm -rf .tmp
 
       - name: Generate a key and sign the android build
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         run: |
           cd .output
 
@@ -62,7 +60,6 @@ jobs:
           mv Mindustry-android-unsigned.apk Mindustry-android.apk
 
       - name: Upload desktop build
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         uses: svenstaro/upload-release-action@2.2.1
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -71,7 +68,6 @@ jobs:
           body: ${{ steps.script.outputs.MESSAGE }}
         
       - name: Upload server build
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         uses: svenstaro/upload-release-action@2.2.1
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -80,7 +76,6 @@ jobs:
           body: ${{ steps.script.outputs.MESSAGE }}
         
       - name: Upload android build
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         uses: svenstaro/upload-release-action@2.2.1
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -89,13 +84,11 @@ jobs:
           body: ${{ steps.script.outputs.MESSAGE }}
         
       - name: Cleanup
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         run: |
           rm -rf .output
           rm -f app/RESULT
 
       - name: Upload last state
-        if: ${{ steps.script.outputs.SUCCESS }} == "true"
         run: |
           git config --global user.name 'Github Actions'
           git config --global user.email 'actions@github.com'
