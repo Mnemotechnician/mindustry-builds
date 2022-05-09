@@ -7,16 +7,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-     version: ${{ github.run_number + 100 }}
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v2
 
-      - name: run script
+      - name: Run script
         id: script
         run: |
           bash gradlew run
+
+      - name: Determine version number
+        env:
+          runNumber: ${{ github.run_number }}
+        run: |
+          echo ::set-env name=version::$(( $runNumber + 100 ))
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2 
