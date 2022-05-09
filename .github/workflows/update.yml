@@ -68,7 +68,7 @@ jobs:
         uses: svenstaro/upload-release-action@2.2.1
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: .output/Mindustry-desktop-$version.jar
+          file: .output/Mindustry-desktop.jar
           tag: ${{ github.run_number }}
           body: ${{ steps.script.outputs.MESSAGE }}
         
@@ -76,7 +76,7 @@ jobs:
         uses: svenstaro/upload-release-action@2.2.1
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: .output/Mindustry-server-$version.jar
+          file: .output/Mindustry-server.jar
           tag: ${{ github.run_number }}
           body: ${{ steps.script.outputs.MESSAGE }}
         
@@ -84,7 +84,7 @@ jobs:
         uses: svenstaro/upload-release-action@2.2.1
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: .output/Mindustry-android-$version.apk
+          file: .output/Mindustry-android.apk
           tag: ${{ github.run_number }}
           body: ${{ steps.script.outputs.MESSAGE }}
         
