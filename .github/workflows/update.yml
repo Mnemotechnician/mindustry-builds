@@ -11,16 +11,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Run script
-        id: script
-        run: |
-          bash gradlew run
-
       - name: Determine version number
         env:
           runNumber: ${{ github.run_number }}
         run: |
-          echo ::set-env name=version::$(( $runNumber + 100 ))
+          echo "version=$(( $runNumber + 100 ))" >> $GITHUB_ENV
+          echo "Version $version"
+
+      - name: Run script
+        id: script
+        run: |
+          bash gradlew run
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2 
