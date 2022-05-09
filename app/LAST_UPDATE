@@ -1,22 +1,22 @@
 {
-    "sha": "f16119cd0fa41ff21ba700065d4ea9121f1edb53",
-    "node_id": "C_kwDOBVqVQ9oAKGYxNjExOWNkMGZhNDFmZjIxYmE3MDAwNjVkNGVhOTEyMWYxZWRiNTM",
+    "sha": "969703659906d14e180d121e6fec1f34ef5da018",
+    "node_id": "C_kwDOBVqVQ9oAKDk2OTcwMzY1OTkwNmQxNGUxODBkMTIxZTZmZWMxZjM0ZWY1ZGEwMTg",
     "commit": {
         "author": {
-            "name": "xem8k5",
-            "email": "69492624+xem8k5@users.noreply.github.com",
-            "date": "2022-05-09T01:28:20Z"
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-09T03:17:40Z"
         },
         "committer": {
-            "name": "GitHub",
-            "email": "noreply@github.com",
-            "date": "2022-05-09T01:28:20Z"
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-09T03:17:40Z"
         },
-        "message": "Update bundle_zh_CN.properties (#6759)\n\n* Translation zh_cn partly\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n发觉强化不符合题意，普通容器血量220 容量300，“强化”容器血量480 容量250，反向强化是不是？故固化符合题意",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/f16119cd0fa41ff21ba700065d4ea9121f1edb53",
+        "message": "Merge branch 'erekir' of https://github.com/Anuken/Mindustry into erekir",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/969703659906d14e180d121e6fec1f34ef5da018",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/f16119cd0fa41ff21ba700065d4ea9121f1edb53",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/f16119cd0fa41ff21ba700065d4ea9121f1edb53",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/f16119cd0fa41ff21ba700065d4ea9121f1edb53/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/969703659906d14e180d121e6fec1f34ef5da018",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/969703659906d14e180d121e6fec1f34ef5da018",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/969703659906d14e180d121e6fec1f34ef5da018/comments"
 }
