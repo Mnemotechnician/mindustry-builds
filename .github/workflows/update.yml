@@ -37,9 +37,9 @@ jobs:
           cd .tmp
           git clone --depth 1 --branch erekir https://github.com/anuken/mindustry/
           cd mindustry
-          bash gradlew desktop::dist -Pbuildversion=${version} -PversionType=bleeding-edge
-          bash gradlew server::dist -Pbuildversion=${version} -PversionType=bleeding-edge
-          bash gradlew android::assembleDebug -Pbuildversion=${version} -PversionType=bleeding-edge
+          bash gradlew desktop::dist -Pbuildversion=${version} -PversionType=bleeding-edge --stacktrace
+          bash gradlew server::dist -Pbuildversion=${version} -PversionType=bleeding-edge --stacktrace
+          bash gradlew android::assembleDebug -Pbuildversion=${version} -PversionType=bleeding-edge --stacktrace
 
           mv desktop/build/libs/*.jar ../../.output/Mindustry-desktop.jar
           mv server/build/libs/*.jar ../../.output/Mindustry-server.jar
