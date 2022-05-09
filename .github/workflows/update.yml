@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-     version: ${{ github.run_number }} + 100
+     version: ${{ github.run_number + 100 }}
     steps:
       - name: checkout
         uses: actions/checkout@v2
