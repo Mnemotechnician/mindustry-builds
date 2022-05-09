@@ -1,22 +1,22 @@
 {
-    "sha": "668b09e955cf4f7f8b069413ba4fcbdd9ad0a145",
-    "node_id": "C_kwDOBVqVQ9oAKDY2OGIwOWU5NTVjZjRmN2Y4YjA2OTQxM2JhNGZjYmRkOWFkMGExNDU",
+    "sha": "efee6b971367bce5c7169f87061d75f5145ae142",
+    "node_id": "C_kwDOBVqVQ9oAKGVmZWU2Yjk3MTM2N2JjZTVjNzE2OWY4NzA2MWQ3NWY1MTQ1YWUxNDI",
     "commit": {
         "author": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-08T21:07:06Z"
+            "name": "buthed010203",
+            "email": "naguiar010203@gmail.com",
+            "date": "2022-05-09T00:18:02Z"
         },
         "committer": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-08T21:07:06Z"
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2022-05-09T00:18:02Z"
         },
-        "message": "Misc bugfixes",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/668b09e955cf4f7f8b069413ba4fcbdd9ad0a145",
+        "message": "Minor blockrenderer cleanup (#6791)",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/efee6b971367bce5c7169f87061d75f5145ae142",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/668b09e955cf4f7f8b069413ba4fcbdd9ad0a145",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/668b09e955cf4f7f8b069413ba4fcbdd9ad0a145",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/668b09e955cf4f7f8b069413ba4fcbdd9ad0a145/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/efee6b971367bce5c7169f87061d75f5145ae142",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/efee6b971367bce5c7169f87061d75f5145ae142",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/efee6b971367bce5c7169f87061d75f5145ae142/comments"
 }
