@@ -1,22 +1,22 @@
 {
-    "sha": "5c6b8df7642f5eb26284d78828c6a5fee37004d2",
-    "node_id": "C_kwDOBVqVQ9oAKDVjNmI4ZGY3NjQyZjVlYjI2Mjg0ZDc4ODI4YzZhNWZlZTM3MDA0ZDI",
+    "sha": "6e23fffe41841ee7044e5488b9605435ef71bd7f",
+    "node_id": "C_kwDOBVqVQ9oAKDZlMjNmZmZlNDE4NDFlZTcwNDRlNTQ4OGI5NjA1NDM1ZWY3MWJkN2Y",
     "commit": {
         "author": {
             "name": "Epowerj",
             "email": "epowerj@homecore.space",
-            "date": "2022-05-09T16:54:28Z"
+            "date": "2022-05-09T17:28:27Z"
         },
         "committer": {
             "name": "Epowerj",
             "email": "epowerj@homecore.space",
-            "date": "2022-05-09T16:54:28Z"
+            "date": "2022-05-09T17:28:27Z"
         },
-        "message": "Merge remote-tracking branch 'origin/erekir' into erekir",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/5c6b8df7642f5eb26284d78828c6a5fee37004d2",
+        "message": "More level 2 tweaks to make it easier",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/6e23fffe41841ee7044e5488b9605435ef71bd7f",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/5c6b8df7642f5eb26284d78828c6a5fee37004d2",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/5c6b8df7642f5eb26284d78828c6a5fee37004d2",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/5c6b8df7642f5eb26284d78828c6a5fee37004d2/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/6e23fffe41841ee7044e5488b9605435ef71bd7f",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/6e23fffe41841ee7044e5488b9605435ef71bd7f",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/6e23fffe41841ee7044e5488b9605435ef71bd7f/comments"
 }
