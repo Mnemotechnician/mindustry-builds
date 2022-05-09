@@ -15,7 +15,7 @@ jobs:
         env:
           runNumber: ${{ github.run_number }}
         run: |
-          echo "version=$(( $runNumber + 100 ))" >> $GITHUB_ENV
+          echo "version=$(( $runNumber + 30000 ))" >> $GITHUB_ENV
           echo "Version $version"
 
       - name: Run script
