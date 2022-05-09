@@ -1,22 +1,22 @@
 {
-    "sha": "1a07b1514f7cc96dbae17f170c83b6c918909e6d",
-    "node_id": "C_kwDOBVqVQ9oAKDFhMDdiMTUxNGY3Y2M5NmRiYWUxN2YxNzBjODNiNmM5MTg5MDllNmQ",
+    "sha": "2b46bbfd2c92061924fcb6d11d0dec991c3c5247",
+    "node_id": "C_kwDOBVqVQ9oAKDJiNDZiYmZkMmM5MjA2MTkyNGZjYjZkMTFkMGRlYzk5MWMzYzUyNDc",
     "commit": {
         "author": {
-            "name": "Github Actions",
-            "email": "runner@fv-az198-826.gjkxsqtjg41etoza45cw35jkyb.bx.internal.cloudapp.net",
-            "date": "2022-05-09T21:42:41Z"
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-09T22:24:31Z"
         },
         "committer": {
-            "name": "Github Actions",
-            "email": "runner@fv-az198-826.gjkxsqtjg41etoza45cw35jkyb.bx.internal.cloudapp.net",
-            "date": "2022-05-09T21:42:41Z"
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-09T22:24:31Z"
         },
-        "message": "Automatic bundle update",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/1a07b1514f7cc96dbae17f170c83b6c918909e6d",
+        "message": "Merge remote-tracking branch 'origin/erekir' into erekir",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/2b46bbfd2c92061924fcb6d11d0dec991c3c5247",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/1a07b1514f7cc96dbae17f170c83b6c918909e6d",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/1a07b1514f7cc96dbae17f170c83b6c918909e6d",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/1a07b1514f7cc96dbae17f170c83b6c918909e6d/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/2b46bbfd2c92061924fcb6d11d0dec991c3c5247",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/2b46bbfd2c92061924fcb6d11d0dec991c3c5247",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/2b46bbfd2c92061924fcb6d11d0dec991c3c5247/comments"
 }
