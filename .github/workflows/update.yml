@@ -35,7 +35,7 @@ jobs:
       - name: Setup apksigner
         run: sudo apt install apksigner -y
 
-      - name: clone, build mindustry
+      - name: Clone, build mindustry
         run: |
           mkdir .tmp
           mkdir .output
@@ -53,15 +53,18 @@ jobs:
           cd ../..
           rm -rf .tmp
 
-      - name: Generate a key and sign the android build
+      - name: Sign the android build
+        env:
+          keyBase64: ${{ secrets.BASE64_KEY }}
+          alias: mindbe
+          password: ${{ secrets.KEY_PASSWORD }}
         run: |
           cd .output
 
-          password="DEBUG_PASSWORD"
-          alias="DEBUG_ALIAS"
+          echo $keyBase64 > berelease.keystore.base64
+          base64 --decode berelease.keystore.base64 > berelease.keystore
 
-          echo -e "$password\n$password\n\n\n\n\n\n\nyes" | keytool -genkey -v -keystore debug.keystore -alias $alias -keyalg RSA -keysize 2048 -validity 10000
-          echo $password | apksigner sign --ks-key-alias $alias --ks debug.keystore Mindustry-android-unsigned.apk
+          echo $password | apksigner sign --ks-key-alias $alias --ks berelease.keystore Mindustry-android-unsigned.apk
           mv Mindustry-android-unsigned.apk Mindustry-android.apk
 
       - name: Upload desktop build
