@@ -1,22 +1,22 @@
 {
-    "sha": "85d7f2cd62822f9f6db8bee82929c2cc39fc34e3",
-    "node_id": "C_kwDOBVqVQ9oAKDg1ZDdmMmNkNjI4MjJmOWY2ZGI4YmVlODI5MjljMmNjMzlmYzM0ZTM",
+    "sha": "9ac75df34ea7164c12aa9f136392a126d3a5b511",
+    "node_id": "C_kwDOBVqVQ9oAKDlhYzc1ZGYzNGVhNzE2NGMxMmFhOWYxMzYzOTJhMTI2ZDNhNWI1MTE",
     "commit": {
         "author": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-10T14:17:43Z"
+            "date": "2022-05-10T15:13:13Z"
         },
         "committer": {
             "name": "Anuken",
             "email": "arnukren@gmail.com",
-            "date": "2022-05-10T14:17:43Z"
+            "date": "2022-05-10T15:13:13Z"
         },
-        "message": "Bugfixes",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/85d7f2cd62822f9f6db8bee82929c2cc39fc34e3",
+        "message": "Merui swap / Bomber command support",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/9ac75df34ea7164c12aa9f136392a126d3a5b511",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/85d7f2cd62822f9f6db8bee82929c2cc39fc34e3",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/85d7f2cd62822f9f6db8bee82929c2cc39fc34e3",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/85d7f2cd62822f9f6db8bee82929c2cc39fc34e3/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/9ac75df34ea7164c12aa9f136392a126d3a5b511",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/9ac75df34ea7164c12aa9f136392a126d3a5b511",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/9ac75df34ea7164c12aa9f136392a126d3a5b511/comments"
 }
