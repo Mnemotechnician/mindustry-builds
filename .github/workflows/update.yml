@@ -62,7 +62,7 @@ jobs:
           cd .output
 
           echo $keyBase64 > berelease.keystore.base64
-          base64 --decode berelease.keystore.base64 > berelease.keystore
+          base64 --decode --ignore-garbage berelease.keystore.base64 > berelease.keystore
 
           echo $password | apksigner sign --ks-key-alias $alias --ks berelease.keystore Mindustry-android-unsigned.apk
           mv Mindustry-android-unsigned.apk Mindustry-android.apk
