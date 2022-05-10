@@ -1,22 +1,22 @@
 {
-    "sha": "595f3fd1179054b1a71648bfebe2b7baed4ba286",
-    "node_id": "C_kwDOBVqVQ9oAKDU5NWYzZmQxMTc5MDU0YjFhNzE2NDhiZmViZTJiN2JhZWQ0YmEyODY",
+    "sha": "7683214eff17f9cdd9efe0bf2d574772ace650f0",
+    "node_id": "C_kwDOBVqVQ9oAKDc2ODMyMTRlZmYxN2Y5Y2RkOWVmZTBiZjJkNTc0NzcyYWNlNjUwZjA",
     "commit": {
         "author": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-10T17:16:09Z"
+            "name": "dead inside",
+            "email": "54301439+MEEPofFaith@users.noreply.github.com",
+            "date": "2022-05-10T20:04:30Z"
         },
         "committer": {
-            "name": "Anuken",
-            "email": "arnukren@gmail.com",
-            "date": "2022-05-10T17:16:09Z"
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2022-05-10T20:04:30Z"
         },
-        "message": "arc",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/595f3fd1179054b1a71648bfebe2b7baed4ba286",
+        "message": "BuildTurret infinite resources fix (#6808)\n\n* BuildTurret infinite resources fix\r\n\r\n* I'm not a good script kiddie\r\n\r\nToo much Testing Utilities has plagued me\r\n\r\n* Team infinite resources as well",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/7683214eff17f9cdd9efe0bf2d574772ace650f0",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/595f3fd1179054b1a71648bfebe2b7baed4ba286",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/595f3fd1179054b1a71648bfebe2b7baed4ba286",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/595f3fd1179054b1a71648bfebe2b7baed4ba286/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/7683214eff17f9cdd9efe0bf2d574772ace650f0",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/7683214eff17f9cdd9efe0bf2d574772ace650f0",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/7683214eff17f9cdd9efe0bf2d574772ace650f0/comments"
 }
