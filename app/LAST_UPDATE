@@ -1,22 +1,22 @@
 {
-    "sha": "b7eeec243eb982fb994238921e9e7e37c317bb53",
-    "node_id": "C_kwDOBVqVQ9oAKGI3ZWVlYzI0M2ViOTgyZmI5OTQyMzg5MjFlOWU3ZTM3YzMxN2JiNTM",
+    "sha": "9b8a09892ad0e1c0267c5f69a40735d95ca0f637",
+    "node_id": "C_kwDOBVqVQ9oAKDliOGEwOTg5MmFkMGUxYzAyNjdjNWY2OWE0MDczNWQ5NWNhMGY2Mzc",
     "commit": {
         "author": {
-            "name": "Epowerj",
-            "email": "epowerj@homecore.space",
-            "date": "2022-05-10T21:37:25Z"
+            "name": "end-me-please",
+            "email": "90796271+end-me-please@users.noreply.github.com",
+            "date": "2022-05-10T22:58:36Z"
         },
         "committer": {
-            "name": "Epowerj",
-            "email": "epowerj@homecore.space",
-            "date": "2022-05-10T21:37:25Z"
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2022-05-10T22:58:36Z"
         },
-        "message": "Merge remote-tracking branch 'origin/erekir' into erekir",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/b7eeec243eb982fb994238921e9e7e37c317bb53",
+        "message": "Update bundle_de.properties (#6768)\n\naHR0cHM6Ly9pLmltZ3VyLmNvbS9NSG1kV0plLnBuZw==",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/9b8a09892ad0e1c0267c5f69a40735d95ca0f637",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/b7eeec243eb982fb994238921e9e7e37c317bb53",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/b7eeec243eb982fb994238921e9e7e37c317bb53",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/b7eeec243eb982fb994238921e9e7e37c317bb53/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/9b8a09892ad0e1c0267c5f69a40735d95ca0f637",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/9b8a09892ad0e1c0267c5f69a40735d95ca0f637",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/9b8a09892ad0e1c0267c5f69a40735d95ca0f637/comments"
 }
