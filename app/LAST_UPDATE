@@ -1,22 +1,22 @@
 {
-    "sha": "7683214eff17f9cdd9efe0bf2d574772ace650f0",
-    "node_id": "C_kwDOBVqVQ9oAKDc2ODMyMTRlZmYxN2Y5Y2RkOWVmZTBiZjJkNTc0NzcyYWNlNjUwZjA",
+    "sha": "1eba814e68898da6f4455a5ed64e84eab25b604a",
+    "node_id": "C_kwDOBVqVQ9oAKDFlYmE4MTRlNjg4OThkYTZmNDQ1NWE1ZWQ2NGU4NGVhYjI1YjYwNGE",
     "commit": {
         "author": {
-            "name": "dead inside",
-            "email": "54301439+MEEPofFaith@users.noreply.github.com",
-            "date": "2022-05-10T20:04:30Z"
+            "name": "Epowerj",
+            "email": "epowerj@homecore.space",
+            "date": "2022-05-10T20:44:19Z"
         },
         "committer": {
-            "name": "GitHub",
-            "email": "noreply@github.com",
-            "date": "2022-05-10T20:04:30Z"
+            "name": "Epowerj",
+            "email": "epowerj@homecore.space",
+            "date": "2022-05-10T20:44:19Z"
         },
-        "message": "BuildTurret infinite resources fix (#6808)\n\n* BuildTurret infinite resources fix\r\n\r\n* I'm not a good script kiddie\r\n\r\nToo much Testing Utilities has plagued me\r\n\r\n* Team infinite resources as well",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/7683214eff17f9cdd9efe0bf2d574772ace650f0",
+        "message": "adjusted levels three and four for new tech changes",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/1eba814e68898da6f4455a5ed64e84eab25b604a",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/7683214eff17f9cdd9efe0bf2d574772ace650f0",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/7683214eff17f9cdd9efe0bf2d574772ace650f0",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/7683214eff17f9cdd9efe0bf2d574772ace650f0/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/1eba814e68898da6f4455a5ed64e84eab25b604a",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/1eba814e68898da6f4455a5ed64e84eab25b604a",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/1eba814e68898da6f4455a5ed64e84eab25b604a/comments"
 }
