@@ -1,22 +1,22 @@
 {
-    "sha": "db947d33cab73813e04f6a337a4338216f97e266",
-    "node_id": "C_kwDOBVqVQ9oAKGRiOTQ3ZDMzY2FiNzM4MTNlMDRmNmEzMzdhNDMzODIxNmY5N2UyNjY",
+    "sha": "83d15ce65e456dc71a42baa2bd07340e067c7a3e",
+    "node_id": "C_kwDOBVqVQ9oAKDgzZDE1Y2U2NWU0NTZkYzcxYTQyYmFhMmJkMDczNDBlMDY3YzdhM2U",
     "commit": {
         "author": {
-            "name": "xem8k5",
-            "email": "69492624+xem8k5@users.noreply.github.com",
-            "date": "2022-05-10T00:06:23Z"
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-10T00:51:31Z"
         },
         "committer": {
-            "name": "GitHub",
-            "email": "noreply@github.com",
-            "date": "2022-05-10T00:06:23Z"
+            "name": "Anuken",
+            "email": "arnukren@gmail.com",
+            "date": "2022-05-10T00:51:31Z"
         },
-        "message": "Update bundle_zh_CN.properties twice (#6802)\n\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties\r\n\r\n* Update bundle_zh_CN.properties",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/db947d33cab73813e04f6a337a4338216f97e266",
+        "message": "Merge remote-tracking branch 'origin/erekir' into erekir",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/83d15ce65e456dc71a42baa2bd07340e067c7a3e",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/db947d33cab73813e04f6a337a4338216f97e266",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/db947d33cab73813e04f6a337a4338216f97e266",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/db947d33cab73813e04f6a337a4338216f97e266/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/83d15ce65e456dc71a42baa2bd07340e067c7a3e",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/83d15ce65e456dc71a42baa2bd07340e067c7a3e",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/83d15ce65e456dc71a42baa2bd07340e067c7a3e/comments"
 }
