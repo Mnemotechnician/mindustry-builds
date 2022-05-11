@@ -1,22 +1,22 @@
 {
-    "sha": "9b8a09892ad0e1c0267c5f69a40735d95ca0f637",
-    "node_id": "C_kwDOBVqVQ9oAKDliOGEwOTg5MmFkMGUxYzAyNjdjNWY2OWE0MDczNWQ5NWNhMGY2Mzc",
+    "sha": "99f98cc7618188d86831ffac908002f211a3202b",
+    "node_id": "C_kwDOBVqVQ9oAKDk5Zjk4Y2M3NjE4MTg4ZDg2ODMxZmZhYzkwODAwMmYyMTFhMzIwMmI",
     "commit": {
         "author": {
-            "name": "end-me-please",
-            "email": "90796271+end-me-please@users.noreply.github.com",
-            "date": "2022-05-10T22:58:36Z"
+            "name": "Yuri Polyakov",
+            "email": "86189625+Kowkodivka@users.noreply.github.com",
+            "date": "2022-05-11T01:07:33Z"
         },
         "committer": {
             "name": "GitHub",
             "email": "noreply@github.com",
-            "date": "2022-05-10T22:58:36Z"
+            "date": "2022-05-11T01:07:33Z"
         },
-        "message": "Update bundle_de.properties (#6768)\n\naHR0cHM6Ly9pLmltZ3VyLmNvbS9NSG1kV0plLnBuZw==",
-        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/9b8a09892ad0e1c0267c5f69a40735d95ca0f637",
+        "message": "Update bundle_ru.properties (#6760)\n\n* Update bundle_ru.properties\r\n\r\n* Update bundle_ru.properties\r\n\r\nупс\r\n\r\nCo-authored-by: Anuken <arnukren@gmail.com>",
+        "url": "https://api.github.com/repos/Anuken/Mindustry/git/commits/99f98cc7618188d86831ffac908002f211a3202b",
         "comment_count": 0
     },
-    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/9b8a09892ad0e1c0267c5f69a40735d95ca0f637",
-    "html_url": "https://github.com/Anuken/Mindustry/commit/9b8a09892ad0e1c0267c5f69a40735d95ca0f637",
-    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/9b8a09892ad0e1c0267c5f69a40735d95ca0f637/comments"
+    "url": "https://api.github.com/repos/Anuken/Mindustry/commits/99f98cc7618188d86831ffac908002f211a3202b",
+    "html_url": "https://github.com/Anuken/Mindustry/commit/99f98cc7618188d86831ffac908002f211a3202b",
+    "comments_url": "https://api.github.com/repos/Anuken/Mindustry/commits/99f98cc7618188d86831ffac908002f211a3202b/comments"
 }
